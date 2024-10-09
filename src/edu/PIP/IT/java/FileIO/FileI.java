@@ -41,6 +41,7 @@ public class FileI {
 			String Line = inputStream.nextLine();	//Get one line
 			System.out.println(Line);				//Print the line
 		}
+		keyboard.close();
 		inputStream.close();
 	}
 }
